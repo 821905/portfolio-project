@@ -1,0 +1,245 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ body{
+    background-image:url("Picture1.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+} 
+
+header{
+    width:100%;
+    height:5rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:;
+    position:fixed;
+
+    
+
+}
+
+.logo{
+    text-decoration: none;
+    color:#ff7200; 
+    font-size:4rem;
+    font-weight:900;
+    margin-left: 2rem;
+
+}
+
+header nav a{
+    text-decoration:none;
+    color:aliceblue; 
+    margin-left: 2rem;
+    font-size:1.60rem;
+    font-weight:400;
+    cursor: pointer;
+}
+
+nav a:hover{
+     color: #ff7200;
+}
+
+section{
+    min-height:100vh;
+    border-bottom:1px solid white;
+    color:white;
+} 
+
+#home{
+     background-image:url("coding pic.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    background: transparent;
+    
+
+}
+
+footer i{
+    color:#ff7200;
+    font-size:2rem;
+    cursor: pointer;
+    padding-bottom: 3rem;
+}
+.content{
+    position: relative;
+    padding-top: 12rem;
+    padding-left: 3rem;
+    
+}
+
+h1{
+    letter-spacing: 5px;
+}
+
+.para{
+    padding-top: 1rem;
+    letter-spacing: 2px;
+}
+
+.btn{
+    margin-top: 1.70rem ;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.60rem;
+    cursor:pointer;
+    background-color: #ff7200;
+    color: white;
+    border:none;
+}
+
+.btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+h1 span {
+    color:#ff7200;
+}
+
+.form input{
+    height: 4rem;
+    width: 16rem;
+    background-color: #ff7200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-top: 1rem;
+    padding-top: 2.50rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.form h1{
+    color: #ff7200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:14rem ;
+    padding-bottom: 2rem;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    font-weight: 500;
+    padding-left: 2rem;
+}
+
+.form h4{
+   padding-top: 0.55rem;
+}
+
+.form i{
+     padding-top: 3.60rem;
+     position:absolute;
+} 
+
+h2{
+    color: #ff7200;
+    font-weight: 900;
+    font-size: 2.50rem;
+    padding-left: 16rem;
+    padding-top: 15rem;
+}
+
+#about-us p{
+    padding-top: 1rem; 
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ .box{
+    border: 1px solid white;
+    width: 30rem;
+    height: 16rem;
+    padding: 1rem;
+ }
+
+ #skills h2{
+    padding-left: 45rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+ }
+
+ .box i{
+    font-size: 3rem;
+    color: #ff7200;
+    padding-left:10rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+ }
+
+ @media only screen and (min-width:375px) and (max-width:667px) {
+     .box{
+        width:28rem;
+        height: 26rem;
+        
+     }
+     .boxes p{
+        line-height:1.50rem ;
+     }
+     section{
+        width: 300px;
+     }
+     #skills h2{
+        padding-left: 29rem;
+     }
+     #about-us h2{
+      padding-left:7rem ;
+     }
+     #about-us p{
+      width: 100vh;
+     }
+     .box i{
+        padding-left: 16rem;
+     }
+     .form{
+        padding-left: 35rem;
+     }
+     footer i{
+        padding-bottom: none ;
+        padding-right: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     footer h2{
+        display: flex; 
+        
+     }
+ }
